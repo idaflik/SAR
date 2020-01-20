@@ -1,0 +1,255 @@
+body {
+  font-family: 'MetropolisRegular', sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0px;
+  /* background-color: #404040; */
+}
+
+button {
+  font-family:inherit;
+  font-size: inherit;
+}
+
+h1, h2, h3, {
+    overflow: auto;
+    font-family: 'MetropolisSemiBold', sans-serif;
+    margin: 18px 0px;
+}
+
+h1 {
+  font-size: 42px;
+  display: inline-block;
+  font-family: 'MetropolisSemiBold', sans-serif;
+}
+
+hr {
+  height: 2px;
+  background-color: #f94802;
+  border:none;
+  margin-bottom: 2em;
+}
+
+/* h2 {
+  font-family: 'MetropolisMedium', sans-serif;
+  font-size: 24px;
+} */
+
+
+h2, h3 {
+  font-family: 'MetropolisMedium', sans-serif;
+  font-size: 19px;
+}
+
+h4 {
+  font-family: 'MetropolisRegular', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+iframe {
+  border: none;
+  overflow: auto;
+}
+
+img {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  padding:5px 0px;
+}
+
+.header * {
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.tick {
+  font-family: 'MetropolisRegular', sans-serif;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 2em 75px;
+}
+
+.footer {
+  background-color: #f2f2f2;
+}
+
+.bar-chart {
+    /* background-color: white; */
+}
+
+.bar {
+  fill: #f94802;
+}
+
+.bar:hover {
+  opacity: 0.9;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li::before {
+  content: "• ";
+  padding-left:0px;
+}
+
+.toolTip {
+  font-family: 'MetropolisSemiBold', sans-serif;
+  margin-right: 5px;
+  font-size: 14px;
+  position: absolute;
+  display: none;
+  background-color: white;
+  opacity: 0.9;
+  min-width: 80px;
+  max-width: 300px;
+  min-height: auto;
+  /* background: none repeat scroll 0 0 #ffffff; */
+  border: none;
+  padding: 14px;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #7f7f7f;
+}
+
+.toolTip1 {
+  font-family: 'MetropolisSemiBold', sans-serif;
+  margin-right: 5px;
+  font-size: 14px;
+  position: absolute;
+  display: none;
+  background-color: white;
+  opacity: 0.9;
+  overflow: visible;
+  width: 300px;
+  min-height: auto;
+  /* background: none repeat scroll 0 0 #ffffff; */
+  border: none;
+  padding: 14px;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #7f7f7f;
+}
+
+.tooltipLine {
+  position: absolute;
+  display: none;
+}
+
+p {
+    overflow: auto;
+    line-height: 1.5;
+    margin-bottom: 2em;
+}
+
+a {
+  color: #1f1b89;
+}
+
+.grid .tick line {
+    stroke: black;
+    opacity: 0.3;
+}
+.grid path {
+      stroke-width: 0;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.caption {
+  text-align: right;
+  font-size: 0.8em;
+  margin-bottom: 4em;
+}
+
+.byline {
+  font-size: 0.8em;
+  font-family:'MetropolisMedium';
+  margin-bottom: 1em;
+  /* color: #1f1b89 */
+}
+
+.white text {
+  fill: #404040;
+}
+
+.white line {
+  stroke: #404040;
+}
+
+.white path {
+  stroke: #404040;
+}
+
+.feature img {
+  width:100%;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+ background-color: #2a25bc;
+ color: white;
+ cursor: pointer;
+ padding: 18px;
+ width: 100%;
+ border: none;
+ text-align: left;
+ outline: none;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+ background-color: #1f1b89;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.collapsible_content {
+ padding: 0 18px;
+ background-color: #f2f2f2;
+ max-height: 0;
+ overflow: hidden;
+ transition: max-height 0.2s ease-out;
+}
+
+.collapsible:after {
+  content: '+'; /* Unicode character for "plus" sign (+) */
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "-"; /* Unicode character for "minus" sign (-) */
+}
+
+
+/*  colors:
+light grey #f2f2f2
+dark grey: #404040
+stong blue: #2a25bc
+dark blue: #1f1b89
+orange: #f94802
+red: #ea0234
+bluegrey: #9db7be
+*/
